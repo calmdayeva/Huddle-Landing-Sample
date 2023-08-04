@@ -1,0 +1,157 @@
+*{
+    /* padding: 3px 3px; */
+}
+
+
+.hero-div {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-div img{
+    width: 90px;
+    height: 20px;
+}
+.hero-div button{
+    border-radius: 10px;
+
+    border-style: none;
+    padding: 1rem 1rem;
+    background-color: white;
+    margin: 1rem 1rem;
+    box-shadow: 5px 5px 5px #888;
+    color: black;
+}
+.hero-span{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 10rem;
+}
+.hero-img img{
+    height: 20rem;
+    width: 25rem;
+}
+
+/* .hero-div2 */
+button {
+    background-color: hsl(322, 100%, 66%);
+    padding: 30px 30px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+header{
+    /* height: 50%; */
+    background-image: url(./images/bg-hero-desktop.svg );
+    background-position: top 10% right 60%;
+    background-color: hsl(193, 100%, 96%);
+    
+}
+section div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    
+
+}
+.sec-img {
+    height: 250px;
+
+}
+.card {
+    box-shadow: 2px 2px 2px 2px #888;
+    padding-bottom: 1rem;
+    
+    margin: 3rem 3rem 3rem 3rem;
+}
+.box {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #888;
+    width: 35%;
+    text-align: center;
+
+    position: relative;
+    bottom: -3rem;
+    left: 26rem;
+}
+
+
+footer{
+    display: flex;
+    background-color: hsl(192, 100%, 9%) ;
+    color: white;
+    justify-content: space-around;
+    height: max-content;
+    padding-top: 2rem;
+    
+}
+li {
+    list-style: none;
+    /* padding-top: 55px; */
+    margin-top: 3rem;
+}
+.attribution {
+    margin-top: 5rem;
+}
+@media (max-width: 680px){
+    .hero-div {
+        /* flex-direction: column; */
+    }
+    header {
+        width: 400px;
+
+        justify-content: center;
+
+    }
+    
+    .hero-img{
+        /* width: 200px;
+        height: 350px; */
+        width: 7rem;
+        height: 10rem;
+        padding: 0 1rem 8rem 0;
+    }
+    .hero-span {
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+        align-content: center;
+        
+    }
+    section div{
+        flex-direction: column-reverse;
+    }
+
+    section {
+        flex-direction: column;
+        width: fit-content;
+    }
+    .card{
+        width: 220px;
+        
+        padding: 1;
+        margin: 1;
+        
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0 0 0;
+        margin: 0;
+    }
+    .box{
+        width: 200px;
+
+        padding: 1rem 1rem 1rem 1rem;
+        align-items: center;
+        position: relative;
+        left: 4rem;
+    }
+    
+}
